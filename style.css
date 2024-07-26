@@ -1,0 +1,30 @@
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: blueviolet;
+
+}
+
+a:visited{
+    color: palevioletred;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.especial:hover{
+    color: pink;
+    background-color: aquamarine;
+    text-decoration: none;
+}
+
+.especial::before{
+    content: '>>';
+    font-weight: lighter;
+}
+
+.especial::after{
+    content: '<<';
+    font-weight: lighter;
+}
