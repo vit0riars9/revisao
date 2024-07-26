@@ -1,7 +1,7 @@
 a{
     font-weight: bold;
     text-decoration: none;
-    color: blueviolet;
+    color: purple;
 
 }
 
@@ -27,4 +27,17 @@ a:hover{
 .especial::after{
     content: '<<';
     font-weight: lighter;
+}
+body{
+    background-color: rgb(223, 198, 162);
+}
+
+div > p{
+    display: none;
+
+}
+
+div:hover > p{
+    display: block;
+    background-color: purple;
 }
