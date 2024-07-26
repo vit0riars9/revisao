@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    mark{
+        background-color: aquamarine;
+    }
+    </style>
+    <title>Introdução a HTML Semântica</title>
+</head>
+<body>
+
+<h1>Principais Formatações</h1>    
+    <h2>Negrito/Itálico</h2>
+        <p>Nesta frase temos o <b>termo em negrito</b>usando a tag B (não semântica)</p>
+        <p>Nesta frase, tenho um <strong>termo em destaque</strong>ultilizando a tag STRONG (semântica)</p>
+<br>
+
+    <h2>Itálico/Ênfase</h2>
+        <p>Nesta frse, temos o <i>termo em itálico</i> usando a tag I (não semântico)</p>
+        <p>Nesta frase, temos um <em>termo em destaque</em>usando a tag EM (semântico)</p>
+<br>
+
+    <h2>Texto Marcado</h2>
+        <p>Podemos criar tembém <mark>um texto marcado</mark>usando a tag MARK (semântico)</p>
+        <p>E no outro parágrafo, temos <mark>outro texto marcado</mark>no final</p>
+        <marquee>Texto rodando na tela</marquee>
+<br>
+
+    <h2>Texto Grande e Pequeno</h2>
+        <p>Estamos criando <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo</p>
+<br>
+
+    <h2>Texto deletado</h2>
+        <p>Podemos marcar <del> um texto como excluido</del> para indicar que ele deve ser lido, mas não considerado</p>
+<br>
+
+    <h2>Texto Inserido</h2>
+        <p>Podemos marcar<ins> um texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois (semântico)</p>
+        <p>Existe também o <u> sublinhado</u> com a tag U (não semântica)</p>
+<br>
+    
+    <h2>Texto sobrescrito</h2>
+        <p>Para inserir cois do tipo x <sup>20</sup>+3</p>
+<br>
+
+    <h2>Texto subscrito</h2>
+        <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+<br>
+
+    <h2>Exemplo de código JavaScript</h2>
+    <!-- pre - comando que assume a formatação de um código  -->
+        <pre>
+            <!-- code: informa ao navegador que o trecho digitado é um código de computador e altera a letra -->
+            <code> 
+                function checkTime(i)
+                {
+                     if(1<10)
+                    {
+                     i="0" + i;
+                    }
+                 return i;
+                }
+            </code>
+        </pre>
+        <p></p>
+<br>
+
+        <h2>Abreviações</h2>
+            <p>Eu estou estudando <abbr title="Hype Text Markup Language">HTML</abbr>para criar sites</p>
+
+
+
+</body>
+</html>
