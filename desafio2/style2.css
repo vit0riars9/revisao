@@ -1,0 +1,157 @@
+*{
+  margin-top: auto;
+  margin-left: auto;
+}
+.conteudo{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+#rodape{
+  background-color: #DD6C98;
+}
+
+p{
+  font-size: 15px;
+  
+}
+body{
+  background-color: #69B6B8;
+}
+ul {
+  List-style: none; 
+  background:#DD6C98 ;
+}
+
+ul li{
+  display: inline-block; 
+  position: relative;
+}
+
+/* Centraliza a lista de navegação */
+ul {
+  list-style-type: none; /* Remove os marcadores da lista */
+  padding: 0;
+  margin: 0;
+  text-align: center; /* Centraliza a lista */
+}
+
+/* Exibe os itens do menu como inline-block */
+ul li {
+  display: inline-block; /* Alinha os itens na horizontal */
+}
+
+/* Estiliza os links dos itens do menu */
+ul li a {
+  display: block; 
+  padding: 20px 25px; 
+  color: #FFF;
+  text-decoration: none; 
+  text-align: center; 
+  font-size: 20px;
+}
+
+/* Estiliza os submenus */
+ul li ul.dropdown {
+  width: 100%;
+  background: #DD6C98; 
+  position: absolute; 
+  z-index: 999; 
+  display: none;
+}
+
+/* Exibe os itens dos submenus como block */
+ul li ul.dropdown li {
+  display: block;
+}
+
+/* Muda a cor de fundo ao passar o mouse sobre o item do menu */
+ul li a:hover {
+  background: rgb(145, 36, 103);
+}
+
+/* Exibe o submenu ao passar o mouse sobre o item do menu */
+ul li:hover ul.dropdown {
+  display: block;
+}
+
+.simbolosorvete{
+
+  width: 60px;
+   height: 60px;
+   margin-right: 0%;
+   padding-right: 10%;
+}
+
+li{
+  font-size: 20px;
+}
+
+.container {
+    position: relative;
+    width: 350px;
+    height: 350px;
+
+
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:#DD6C98;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    height: 100%;
+  }
+  
+  .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+ 
+  h2{
+      background-color: #DD6C98;
+      text-align: center;
+      color: #FFF;
+    }
+    a{
+      font-weight: bold;
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+     
+  }
+   
+  a:visited{
+      color:white;
+   
+  }
+   
+  a:hover{
+      text-decoration: underline;
+  }
+  h4{
+    text-align: center;
+  }
+  a, li{
+    text-align: center;
+  }
