@@ -10,7 +10,9 @@
 #rodape{
   background-color: #DD6C98;
 }
-
+#choc{
+  width: 100%;
+}
 p{
   font-size: 15px;
   
@@ -153,5 +155,8 @@ li{
     text-align: center;
   }
   a, li{
+    text-align: center;
+  }
+  body{
     text-align: center;
   }
